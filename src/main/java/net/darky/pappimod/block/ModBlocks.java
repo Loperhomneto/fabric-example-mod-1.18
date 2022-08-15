@@ -1,6 +1,7 @@
 package net.darky.pappimod.block;
 
 import net.darky.pappimod.PappiMod;
+import net.darky.pappimod.block.custom.SpeedyBlock;
 import net.darky.pappimod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -24,6 +25,9 @@ public class ModBlocks {
             registerBlock("deepslate_mythril_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(8f).requiresTool()), ModItemGroup.MYTHRIL);
     public static final Block NETHERRACK_MYTHRIL_ORE =
             registerBlock("netherrack_mythril_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block SPEEDY_BLOCK =
+            registerBlock("speedy_block", new SpeedyBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroup.MYTHRIL);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
