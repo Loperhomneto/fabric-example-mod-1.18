@@ -2,6 +2,7 @@
   "item.pappimod.mythril_ingot": "Mythril Ingot",
   "item.pappimod.mythril_nugget": "Mythril Nugget",
   "item.pappimod.raw_mythril": "Raw Mythril",
+  "item.pappimod.dowsing_rod": "Dowsing Rod",
 
 
   "block.pappimod.mythril_block": "Mythril Block",
@@ -10,6 +11,8 @@
   "block.pappimod.deepslate_mythril_ore": "Deepslate Mythril Ore",
   "block.pappimod.netherrack_mythril_ore": "Netherrack Mythril Ore",
 
-  "itemGroup.pappimod.mythril": "Mythril Pappi Tab"
+  "itemGroup.pappimod.mythril": "Mythril Pappi Tab",
+
+  "item.tutorialmod.dowsing_rod.no_valuables": "No Valuables Found"
 
 }
