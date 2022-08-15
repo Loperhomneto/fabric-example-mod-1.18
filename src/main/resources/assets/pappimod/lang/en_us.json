@@ -1,6 +1,15 @@
 {
   "item.pappimod.mythril_ingot": "Mythril Ingot",
   "item.pappimod.mythril_nugget": "Mythril Nugget",
-  "item.pappimod.raw_mythril": "Raw Mythril"
+  "item.pappimod.raw_mythril": "Raw Mythril",
+
+
+  "block.pappimod.mythril_block": "Mythril Block",
+  "block.pappimod.mythril_ore": "Mythril Ore",
+  "block.pappimod.raw_mythril_block": "Raw Mythril Block",
+  "block.pappimod.deepslate_mythril_ore": "Deepslate Mythril Ore",
+  "block.pappimod.netherrack_mythril_ore": "Netherrack Mythril Ore",
+
+  "itemGroup.pappimod.mythril": "Mythril Pappi Tab"
 
 }

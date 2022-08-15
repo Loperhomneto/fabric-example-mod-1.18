@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pappimod:mythril_ingot"
+    }
+  },
+  "result": {
+    "item": "pappimod:mythril_block"
+  }
+}

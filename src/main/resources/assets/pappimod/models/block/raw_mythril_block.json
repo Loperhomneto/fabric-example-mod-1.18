@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pappimod:block/raw_mythril_block"
+  }
+}
