@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "pappimod:block/speed_block"
+    "all": "pappimod:block/speedy_block"
   }
 }

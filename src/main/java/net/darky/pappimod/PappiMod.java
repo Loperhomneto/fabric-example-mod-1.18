@@ -2,6 +2,7 @@ package net.darky.pappimod;
 
 import net.darky.pappimod.block.ModBlocks;
 import net.darky.pappimod.item.ModItems;
+import net.darky.pappimod.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,8 @@ public class PappiMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModRegistries.registerModStuff();
 
 	}
 }

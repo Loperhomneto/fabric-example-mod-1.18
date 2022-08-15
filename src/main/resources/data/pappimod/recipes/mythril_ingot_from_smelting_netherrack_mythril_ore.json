@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "pappimod:netherrack_mythril_ore"
+  },
+  "result": "pappimod:mythril_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}
