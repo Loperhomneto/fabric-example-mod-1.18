@@ -18,6 +18,10 @@ public class ModItems {
 
     public static final Item LILAC_FLOWER_BULB = registerItem("lilac_flower_bulb", new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
 
+    public static final Item GRAPE = registerItem("grape", new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL).food(ModFoodComponents.GRAPE)));
+
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(PappiMod.MOD_ID, name), item);
     }
