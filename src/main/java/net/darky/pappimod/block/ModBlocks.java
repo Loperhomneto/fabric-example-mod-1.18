@@ -1,12 +1,13 @@
 package net.darky.pappimod.block;
 
 import net.darky.pappimod.PappiMod;
+import net.darky.pappimod.block.custom.ModPressurePlateBlock;
+import net.darky.pappimod.block.custom.ModStoneButtonBlock;
 import net.darky.pappimod.block.custom.SpeedyBlock;
 import net.darky.pappimod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -37,6 +38,21 @@ public class ModBlocks {
 
     public static final Block SPEEDY_BLOCK =
             registerBlock("speedy_block", new SpeedyBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block MYTHRIL_BUTTON =
+            registerBlock("mythril_button", new ModStoneButtonBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool().noCollision())
+                    , ModItemGroup.MYTHRIL);
+
+    public static final Block MYTHRIL_PRESSURE_PLATE =
+            registerBlock("mythril_pressure_plate", new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING
+                    , FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block MYTHRIL_FENCE =
+            registerBlock("mythril_fence", new FenceBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroup.MYTHRIL);
+    public static final Block MYHTRIL_FENCE_GATE =
+            registerBlock("mythril_fence_gate", new FenceGateBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroup.MYTHRIL);
+    public static final Block MYTHRIL_WALL =
+            registerBlock("mythril_wall", new WallBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroup.MYTHRIL);
 
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey) {
         registerBlockItem(name, block, group, tooltipKey);

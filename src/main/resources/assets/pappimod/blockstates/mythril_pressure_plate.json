@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "pappimod:block/mythril_pressure_plate" },
+    "powered=true": { "model": "pappimod:block/mythril_pressure_plate_down" }
+  }
+}
