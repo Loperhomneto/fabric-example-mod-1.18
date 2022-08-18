@@ -13,11 +13,16 @@
   "block.pappimod.netherrack_mythril_ore": "Netherrack Mythril Ore",
   "block.pappimod.speedy_block": "Speedy Block",
 
-  "block.tutorialmod.mythril_button": "Mythril Button",
-  "block.tutorialmod.mythril_pressure_plate": "Mythril Pressure Plate",
-  "block.tutorialmod.mythril_fence": "Mythril Fence",
-  "block.tutorialmod.mythril_wall": "Mythril Wall",
-  "block.tutorialmod.mythril_fence_gate": "Mythril Fence Gate",
+  "block.pappimod.mythril_button": "Mythril Button",
+  "block.pappimod.mythril_pressure_plate": "Mythril Pressure Plate",
+  "block.pappimod.mythril_fence": "Mythril Fence",
+  "block.pappimod.mythril_wall": "Mythril Wall",
+  "block.pappimod.mythril_fence_gate": "Mythril Fence Gate",
+  
+  "block.pappimod.darky_door": "Darky Door",
+  "block.pappimod.darky_trapdoor": "Darky Trapdoor",
+  "block.pappimod.mythril_slab": "Mythril Slab",
+  "block.pappimod.mythril_stairs": "Mythril Stairs",
 
   "itemGroup.pappimod.mythril": "Mythril Pappi Tab",
 

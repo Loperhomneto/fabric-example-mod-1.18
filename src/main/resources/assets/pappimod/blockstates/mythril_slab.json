@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pappimod:block/mythril_slab"
+    },
+    "type=double": {
+      "model": "pappimod:block/mythril_planks"
+    },
+    "type=top": {
+      "model": "pappimod:block/mythril_slab_top"
+    }
+  }
+}

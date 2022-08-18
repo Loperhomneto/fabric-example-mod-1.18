@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.darky.pappimod.PappiMod"
+    ],
+    "client": [
+      "net.darky.pappimod.PappiClientMod"
     ]
   },
   "mixins": [

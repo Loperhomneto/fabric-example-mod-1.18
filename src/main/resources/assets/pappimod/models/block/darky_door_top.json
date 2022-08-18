@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "pappimod:block/darky_door_top",
+    "bottom": "pappimod:block/darky_door_bottom"
+  }
+}
