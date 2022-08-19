@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "pappimod:item/mythril_helmet"
+  }
+}

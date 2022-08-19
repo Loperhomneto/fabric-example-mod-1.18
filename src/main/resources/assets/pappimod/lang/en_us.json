@@ -24,11 +24,25 @@
   "block.pappimod.mythril_slab": "Mythril Slab",
   "block.pappimod.mythril_stairs": "Mythril Stairs",
 
+  "block.pappimod.lilac_flower": "Lilac Flower",
+  "block.pappimod.potted_lilac_flower": "Potted Lilac Flower",
+
   "itemGroup.pappimod.mythril": "Mythril Pappi Tab",
 
   "item.pappimod.dowsing_rod.no_valuables": "No Valuables Found",
   "item.pappimod.dowsing_rod.tooltip.shift": "Right Click to find valuables",
   "item.pappimod.dowsing_rod.tooltip": "Press §eSHIFT§r for more information",
+
+  "item.pappimod.mythril_pickaxe": "Mythril Pickaxe",
+  "item.pappimod.mythril_axe": "Mythril Axe",
+  "item.pappimod.mythril_shovel": "Mythril Shovel",
+  "item.pappimod.mythril_hoe": "Mythril Hoe",
+  "item.pappimod.mythril_sword": "Mythril Sword",
+
+  "item.pappimod.mythril_helmet": "Mythril Helmet",
+  "item.pappimod.mythril_chestplate": "Mythril Chestplate",
+  "item.pappimod.mythril_leggings": "Mythril Leggings",
+  "item.pappimod.mythril_boots": "Mythril Boots",
 
   "tooltip.pappimod.mythril_block": "A Magical Block"
 }

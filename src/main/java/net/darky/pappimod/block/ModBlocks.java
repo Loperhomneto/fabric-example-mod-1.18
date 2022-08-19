@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -64,6 +65,17 @@ public class ModBlocks {
 
     public static final Block DARKY_TRAPDOOR =
             registerBlock("darky_trapdoor", new TrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(3.5f).requiresTool().nonOpaque()), ModItemGroup.MYTHRIL);
+
+    public static final Block LILAC_FLOWER =
+            registerBlock("lilac_flower", new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 20,
+                    FabricBlockSettings.copy(Blocks.DANDELION).strength(3.5f).nonOpaque()), ModItemGroup.MYTHRIL);
+    public static final Block POTTED_LILAC_FLOWER =
+            registerBlockWithoutBlockItem("potted_lilac_flower", new FlowerPotBlock(ModBlocks.LILAC_FLOWER,
+                    FabricBlockSettings.copy(Blocks.POTTED_ALLIUM).nonOpaque()), ModItemGroup.MYTHRIL);
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block, ItemGroup group) {
+        return Registry.register(Registry.BLOCK, new Identifier(PappiMod.MOD_ID, name), block);
+    }
 
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey) {
         registerBlockItem(name, block, group, tooltipKey);
