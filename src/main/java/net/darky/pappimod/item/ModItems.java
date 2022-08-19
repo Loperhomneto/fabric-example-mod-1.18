@@ -41,6 +41,8 @@ public class ModItems {
     public static final Item MYTHRIL_BOOTS = registerItem("mythril_boots"
             , new ArmorItem(ModArmorMaterials.MYTHRIL, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
 
+    public static final Item MAGIC_MYTHRIL_DUST = registerItem("magic_mythril_dust", new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(PappiMod.MOD_ID, name), item);
     }
